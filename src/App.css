@@ -1,0 +1,283 @@
+/* CHAT STYLES */
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600;700;800&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+* {
+     font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.5px;
+  }
+  
+  .ce-chat-list {
+    background-color: rgb(36, 36, 36) !important;
+  }
+  
+  .ce-chats-container {
+    background-color: white !important;
+  }
+  
+  .ce-active-chat-card {
+    background-color: #ffffff !important;
+    border: none;
+    border-bottom: 1px solid #131313 !important;
+    border-radius: 0px !important;
+     }
+  
+  .ce-chat-subtitle-text {
+    color: #0d0d0d !important;
+  }
+  
+  .ce-chat-form-container {
+    padding-bottom: 20px !important;
+  }
+  
+  .ce-text-input {
+    border-radius: 6px !important;
+    border: 1px solid #ffffff !important;
+  }
+  
+  .ce-primary-button {
+    border-radius: 6px !important;
+    background-color: #952424 !important;
+    position: relative;
+    bottom: 1px;
+  }
+  
+  .ce-danger-button {
+    background-color: white !important;
+    border-radius: 22px !important;
+  }
+  
+  .ce-settings {
+    background-color: white !important;
+  }
+  
+  .ce-autocomplete-input {
+    border-radius: 6px !important;
+    border: 1px solid #000000 !important;
+  }
+  
+  .ce-autocomplete-options {
+    border-radius: 6px !important;
+    border: 1px solid #000000 !important;
+    background-color: white !important;
+  }
+  
+  .ce-chat-settings-container {
+    padding-top: 12px !important;
+  }
+  
+  .ce-chat-avatars-row {
+    display: none !important;
+  }
+  
+  /* CUSTOM FEED */
+  
+  .chat-feed {
+    height: 100%;
+    width: 100%;
+    overflow: scroll;
+    background-color: white;
+  }
+  
+  .chat-title-container {
+    width: calc(100% - 36px);
+    padding: 18px;
+    text-align: center;
+  }
+  
+  .chat-title {
+    color: #000000;
+    font-weight: 800;
+    font-size: 25px;
+    font-family: 'Jost', sans-serif;
+  }
+  
+  .chat-subtitle {
+    color: #2a2a2a;
+    font-weight: 600;
+    font-size: 12px;
+    padding-top: 4px;
+  }
+  
+  .message-row {
+    float: left;
+    width: 100%;
+    display: flex;
+    margin-left: 18px;
+  }
+  
+  .message-block {
+    width: 100%;
+    display: inline-block;
+  }
+  
+  .message-avatar {
+    width: 44px;
+    height: 44px;
+    border-radius: 22px;
+    color: white;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 48px;
+  }
+  
+  .message {
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 6px;
+    max-width: 60%;
+  }
+  
+  .message-image {
+    margin-right: 18px;
+    object-fit: cover;
+    border-radius: 6px;
+    height: 30vw;
+    max-height: 200px;
+    max-width: 200px;
+    min-height: 100px;
+    min-width: 100px;
+  }
+  
+  .read-receipts {
+    position: relative;
+    bottom: 6px;
+  }
+  
+  .read-receipt {
+    width: 13px;
+    height: 13px;
+    border-radius: 13px;
+    margin: 1.5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 14px;
+  }
+  
+  .message-form-container {
+    position: absolute;
+    bottom: 0px;
+    width: calc(100% - 36px);
+    padding: 18px;
+   }
+  
+  .message-form {
+    overflow: hidden;
+    border-radius: 6px;
+    border: 1px solid #000000;
+    background-color: white;
+  }
+  
+  .message-input {
+    height: 40px;
+    width: calc(100% - 132px);
+    background-color: white;
+    border: 1px solid white;
+    padding: 0px 18px;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .image-button {
+    cursor: pointer;
+    padding: 0px 12px;
+    height: 100%;
+  }
+  
+  .send-button {
+    height: 42px;
+    background-color: white;
+    border: 1px solid white;
+    padding: 0px 18px;
+    cursor: pointer;
+  }
+  
+  .send-icon {
+    top: 1px;
+    position: relative;
+    transform: rotate(-90deg);
+  }
+  
+  .picture-icon {
+    top: 1px;
+    position: relative;
+    font-size: 14px;
+  }
+  
+  /* FORM STYLES */
+  *,
+  *::after,
+  *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+  
+  .wrapper {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .input {
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    margin: 0.5rem auto;
+    padding: 1.5rem;
+    border-radius: 0.2rem;
+    border: 2px solid black;
+    width: 90%;
+    display: block;
+    transition: all 0.3s;
+    outline: none;
+    margin-bottom: 25px;
+  }
+  
+  .form {
+    width: 400px;
+  }
+  
+  .title {
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+    color: black;
+    margin-bottom: 30px;
+    width: 100%;
+    font-size: 2.2rem;   
+    text-transform: capitalize;
+  }
+  
+  .button {
+    border-radius: 4px;
+    border: none;
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    padding: 10px;
+    width: 200px;
+    transition: all 0.4s;
+    cursor: pointer;
+    margin: 5px;
+    width: 90%;
+  }
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.4s;
+  }
+  .button:hover  {
+    background-color: gray;
+   color: rgb(10, 10, 10);
+   font-weight: 600;
+  }
+  
+  .error {
+    color: rgb(220, 6, 6);
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2rem;
+  }
