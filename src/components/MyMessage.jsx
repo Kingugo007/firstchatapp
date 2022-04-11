@@ -11,7 +11,10 @@ if(message?.attachments?.length > 0) {
 }
 
     return (
-        <div className="message" style={{ float: 'right', margin: '18px', color: 'black'}}>
+        <div className="message" style={{ float: 'right',
+         margin: '18px', 
+         color: 'black',
+          backgroundColor: "#b3ff78"}}>
             {message.text}
         </div>
     )
