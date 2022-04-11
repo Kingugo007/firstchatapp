@@ -20,8 +20,8 @@ const isFirstMessageByUser = !lastMessage || lastMessage.sender.username !== mes
       /> 
     ) : (
         <div className="message" style={{ float: 'left',
-         backgroundColor: '#383838',
-         color: 'white',
+         backgroundColor: '#6bffae',
+         color: 'black',
          marginLeft: isFirstMessageByUser ? '4px' : '48px'}}>
             {message.text}
         </div>
